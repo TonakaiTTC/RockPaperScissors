@@ -1,0 +1,63 @@
+import random
+choices = ['Rock', 'Paper', 'Scissors' , 'rock', 'paper', 'scissors']
+compindex = random.randint(0,2)
+compchoice = choices[compindex]
+userChoice = input('Select rock, paper, or scissors ')
+
+if compchoice == 'Paper':
+    if userChoice == 'Paper':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'Rock':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'Scissors':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
+    elif userChoice == 'paper':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'rock':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'scissors':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
+elif compchoice == 'Scissors':
+    if userChoice == 'Scissors':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'Paper':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'Rock':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
+    elif userChoice == 'scissors':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'paper':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'rock':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
+elif compchoice == 'Rock':
+    if userChoice == 'Rock':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'Scissors':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'Paper':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
+    elif userChoice == 'rock':
+        print('Computer chose ' + compchoice)
+        print('Dang it we tied!')
+    elif userChoice == 'scissors':
+        print('Computer chose ' + compchoice)
+        print('Dang it we lost!')
+    elif userChoice == 'paper':
+        print('Computer chose ' + compchoice)
+        print('Haha you suck I win')
